@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body{
+	background: #1A1F2B;
+}
+
+header{
+	padding: 20px 15px;
+}
+
+.logo{
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	background-color: #30395C;
+	display: inline-block;
+}
+
+.top_nav{
+	padding: 0 15px;
+	float: right;
+	display: inline-block; 
+}
+
+.top_nav a{
+	display: inline-block;
+	font-family: 'san-serif';
+	color: #fff; 
+	text-decoration: none;
+	padding: 15px 15px;
+}
+
+.top_nav a:hover{
+	color: #85A5CC;
+	text-decoration: none;
+}
+
+.jumbo{
+	padding: 100px 0px;
+}
+
+.jumbo h1{
+	color: #fff;
+	font-family: 'Poiret One';
+	font-size: 30px;
+	text-align: center;
+}
+
+.work{
+	padding: 30px 100px;
+	text-align: center;
+}
+
+.work .box{
+	display: inline-block;
+	background: #fff;
+	width: 300px;
+	height: 250px;
+	background: no-repeat center center fixed; 
+  	-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: 100% 100%;
+  	margin: 10px 10px;
+  	background-size: contain;
+  	overflow: hidden;
+}
+
+.work .box .hover-effect{
+	position: relative;
+	bottom: -100%;
+	background: rgba(48, 57, 92, 0.8);
+	height: 100%;
+	position: 100%;
+	transition: all .8s ease;
+	padding: 35px 15px;
+	text-align: left;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.work .box:hover .hover-effect {
+	opacity: 1;
+	bottom:  0%;
+}
+
+.work .box .hover-effect h3{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.work .box .hover-effect h5{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+
+
