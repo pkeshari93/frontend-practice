@@ -5,26 +5,62 @@ body{
 	
 }
 
-header{
-	padding: 20px 15px;
+.header-container{
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: .5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: #fff;
 }
 
 .logo{
+	grid-column: .5 / 1;
+    grid-row: 1;
 	text-align: center;
-	width: 60px;
-	height: 60px;
+	/*width: 60px;
+	height: 60px;*/
 	background-color: #30395C;
-	display: inline-block;
+	display: grid;
 }
 
 .top_nav{
-	padding: 0 15px;
+	/*padding: 0 15px;
 	float: right;
-	display: inline-block; 
+	display: inline-block;*/ 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr auto;
+	grid-column: 4;
+	grid-row: 1;
+
+
+}
+
+.about{
+	display: grid;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.projects{
+	display: grid;
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.blog{
+	display: grid;
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.contact{
+	display: grid;
+	grid-column: 4;
+	grid-row: 1;
 }
 
 .top_nav a{
-	display: inline-block;
 	font-family: 'san-serif';
 	color: #fff; 
 	text-decoration: none;
@@ -37,8 +73,18 @@ header{
 }
 
 .jumbo{
-	padding: 100px 0px;
+	display: grid;
+	grid-column: 1/3;
+	grid-row: 2/3;
+	border: 2px #fff solid;
+	padding: 20px 10px;
 }
+
+/*.my-img{
+	background-color: #fff;
+	display: grid;
+	grid-column: 2/4;
+}*/
 
 .jumbo h1{
 	color: #fff;
