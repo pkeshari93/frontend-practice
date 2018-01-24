@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid-co",
+				"grid-column"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"grid-auto-",
+				"grid-auto-rows"
+			],
+			[
+				"grid-",
+				"grid-auto-rows"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns"
+			],
+			[
+				"grid-row",
+				"grid-template-rows"
+			],
+			[
+				"grid-la",
+				"grid-template-columns"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-flex"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ble",
+				"background-blend-mode"
+			],
+			[
+				"insta",
+				"Instagram"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-bottom-style"
+			],
+			[
+				"e",
+				"semi-expanded"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background-blend-mode"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"backgro",
+				"background-blend-mode"
+			],
+			[
+				"bac",
+				"backface-visibility"
+			],
+			[
+				"hea",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 209.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/css/main4.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/index4.html",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/css/main.css",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/index.html",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/css/main3.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/index3.html",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/css/main2.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/index2.html",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/css/main.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/index.html",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/css_grids/untitled",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/README.md",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/portfolio/css/main.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/portfolio/index.html",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/portfolio/css/css_reset.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/portfolio/css/css_reset",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/css/css_reset.css",
+		"/Users/prakharkeshari/Desktop/projects/frontend-practice/portfolio/untitled",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/README.md",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/image/background.jpg",
+		"/Users/prakharkeshari/Desktop/projects/portfolio/image/background.jpeg"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
