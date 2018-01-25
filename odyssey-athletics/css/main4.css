@@ -1,7 +1,166 @@
 body{
 	 background-color: #fff;
 	 color: #333;
-	 font-size: 1.1em;
+	 font-size: 1em;
 	 line-height: 1.5;
-	 text-align: center;
+	 text-align: center; 
 }
+
+img{
+
+	/* dont use grid for this, use grid only for splitting containers */
+	display: block;
+
+	/* assumes the width of the container */
+	width: 100%; 
+	height: auto;
+}
+
+h1, h2, h3{
+	margin: 0;
+	padding: 1em 0;
+	font-weight: bold;
+}
+
+p{
+	margin: 0
+	padding: 1em;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: .5em;
+	margin: .5em .2em;
+	padding: 0 .2em;
+	transition-delay: .3;
+}
+
+#showcase a:hover{
+	border: .1em solid #333;
+	font-size: 1.em;
+	background: #333;
+}
+
+li{
+	text-decoration: none;
+}
+
+/* Header Showcase */
+
+#showcase{
+	 min-height: 600px;
+}
+
+#showcase .bg-img{
+	position: absolute;
+	background: black url(../images/bg-img.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	z-index: -1;
+	opacity: .6;
+
+}
+
+#showcase h1{
+	padding-top: 100px;
+	padding-bottom: 0px;
+}
+
+#showcase .content-wrap,
+#about .content-wrap{
+	padding: 0 1.5em;
+}
+
+
+/* About */
+ #about {
+	background: #242324;
+	color: #F4F2F4;
+	line-height: 2em;
+
+ }
+
+
+/* weight training */
+#weight-training{
+	padding-bottom: 2em 1em;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	 padding-bottom: 1em;
+	 background: #fff;
+	 color: #333;
+}
+
+#connect{
+	background: #242324;
+	color: #fff;
+	padding: 2em;
+}
+
+#connect img{
+	width: 30px;
+	height: 30px;
+}
+
+/* media query */
+@media (min-width: 700px) {
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;  
+	}
+	
+	.content-wrap, 
+	ul{
+		grid-column: 2/4;
+		/*display: flex;*/
+	}
+
+	ul{
+		display: flex;
+		justify-content: space-around;
+	}
+	li{
+		width: 31%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
