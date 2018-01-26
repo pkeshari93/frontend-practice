@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+/*core styles*/
+body{
+	background: #FFFDFF;
+	color: #242324
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+#header{
+	color: #fff;
+	min-height: 450px;
+	z-index: 2;
+}
+
+#header{
+	background-color: black;
+	z-index: 1;
+	opacity: .1;
+}
+
+#showcase .bg-img{
+	position: absolute;
+	background: black url(../images/bg-img.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	z-index: -1;
+	opacity: .6;
+
+}
+
+/*.my-img img{
+	z-index: -1;
+}*/
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.logo{
+	font-family: Sacramento;
+	font-size: 1.5em;
+	display: block;
+}
+
+h1{
+	margin-bottom: 0;
+	padding: 2em .5em;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+.btn{
+	color: #fff;
+	text-decoration: none;
+	padding: 1em 2em;
+
+}
