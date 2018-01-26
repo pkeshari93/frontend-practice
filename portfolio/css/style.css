@@ -14,6 +14,17 @@ body{
 	min-height: 500px;
 }
 
+#header{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+#header .content-wrap,
+#about .content-wrap
+{
+	padding: 0 1.5em;
+}
+
 /*#header .bg-img{
 	position: absolute;
 	background: black url(../images/bg-img.jpg);
@@ -43,7 +54,8 @@ h1{
 	margin-bottom: 0;
 	padding: 2em .5em;
 	font-size: 3em;
-	line-height: 1.5em;
+	line-height: 1.5em;font-family: "Poiret One";
+
 }
 
 .btn{
@@ -62,3 +74,182 @@ h1{
 	font-size: 1.2em;
 	margin: 0 1em;
 }
+
+#about{
+	margin-top: 2em;
+	background: #FFFDFF;
+	color: #333;
+	padding: 2em 0;
+}
+
+#about h2{
+	font-family: "Poiret One";
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+#about li{
+	margin-bottom: 1em;
+	background: #fff;
+	color: #333;
+}
+
+#edu{
+	margin-top: 2em;
+	background: #242324;
+	color: #fff;
+	padding: 2em 0;
+}
+
+#edu h2{
+	font-family: "Poiret One";
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+#edu li{
+	margin-bottom: 1em;
+	background: #fff;
+	color: #333;
+}
+
+#intern{
+	margin-top: 2em;
+	background: #FFFDFF;
+	color: #333;
+	padding-bottom: 2em;
+}
+
+#intern h2{
+	font-family: "Poiret One";
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+#intern li{
+	margin-bottom: 1em;
+	background: #fff;
+	color: #333;
+}
+
+#projects{
+	margin-top: 2em;
+	background: #242324;
+	color: #fff;
+	padding: 2em 0;
+}
+
+#projects h2{
+	font-family: "Poiret One";
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+#projects li{
+	margin-bottom: 1em;
+	background: #fff;
+	color: #333;
+}
+
+
+
+#projects .btn{
+	font-size: 1em;
+	margin: 1em .5em;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 1em 1em;
+	/*transition-delay: .1;*/
+	padding: 0 .2em;
+	border: .08em #fff solid;
+	background: #333;
+
+}
+
+#projects .card:first-child{
+	width: 350px;
+	height: 350px;
+	padding-bottom: 0;
+}
+#projects .card{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+#projects .btn:hover{
+	padding: 0 .2em;
+	font-size: 1.2em;
+	margin: 0 1em;
+	background: #333;
+	border: .1em #fff solid;
+}
+
+#projects img{
+	/*display: block;*/
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+
+#footer{
+	margin-top: 2em;
+	background: black;
+	color: #fff;
+	padding: 2em 0;
+	text-align: center;
+
+}
+#footer a{
+	display: inline-block;
+	text-decoration:none;
+	color: white;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#footer img{
+	width:40px;
+	height:40px;
+	border:0;
+}
+
+#footer a:hover { 
+	background-color: #333;
+	opacity: .8;
+	background-blend-mode: screen;
+}
+
+#social-links{
+	padding: 10px;
+	float: center;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
