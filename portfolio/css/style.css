@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 /*core styles*/
 body{
 	background: #FFFDFF;
@@ -83,6 +84,7 @@ h1{
 	padding: 0;
 }
 
+
 #about p{
 	margin: 1em .5em;
 }
@@ -95,9 +97,19 @@ h1{
 
 #about ul{
 	background: #fff;
-	color: #333;
 	padding: 0;
-	margin: 1em 0;
+	margin: .5em 0;
+}
+
+#about li{
+	background: #fff;
+	color: #333;
+	padding: 2em 2em;
+	border-radius: 1em;
+}
+
+#about img{
+	border-radius: 1em;
 }
 
 #edu{
@@ -125,25 +137,59 @@ h1{
 }
 
 #edu .edu-pics li{
-	margin: .1em;
-	background: #333;
+	background: #fff;
 	color: #333;
-	padding: 0;
+	padding: .2em .2em;
+	border-radius: 1em;
+	margin: .1em;
+}
+
+#edu img{
+	border-radius: 1em;
+	/*background-blend-mode: soft-light;*/
+	filter: brightness(130%) contrast(110%) saturate(120%);
+}
+
+
+.user-story, 
+.lesson-learned{
+	border: .05em #fff solid;
+	margin: .5em;
 }
 
 
 
-#edu .user-story {
-	grid-column: 1;
-	background: #A5A3A5;
+#edu h3{
+	color: #fff;
+	font-size: 2em;
+	padding: .5em 0;
+	font-family: "Poiret One"
+}
 
+#edu ol{
+	list-style: decimal;
+	list-style-position: inside;
+	font-family: "Cutive Mono"
+}
+
+.user-story ol li{
+	font-size: 1.5em;
+	line-height: 2.5em;
+	text-decoration-line: line-through;
+	text-decoration-color: black;
+
+}
+
+.lesson-learned ol li{
+	font-size: 1.5em;
+	line-height: 2.5em
 }
 
 #intern{
 	margin-top: 2em;
 	background: #FFFDFF;
 	color: #333;
-	padding-bottom: 2em;
+
 }
 
 #intern h2{
@@ -159,11 +205,43 @@ h1{
 	padding: 0 1em;
 }
 
+#intern h3{
+	color: #242324;
+	font-size: 2em;
+	padding: .5em 0;
+	font-family: "Poiret One"
+}
+
+#intern .user-story, 
+#intern .lesson-learned{
+	border: .1em #141414 solid;
+	margin: .5em;
+}
+
+#intern ol{
+	list-style: decimal;
+	list-style-position: inside;
+	font-family: "Cutive Mono"
+}
+
+#intern .user-story ol li{
+	font-size: 1.5em;
+	line-height: 2.5em;
+	text-decoration-line: line-through;
+	text-decoration-color: #A5A3A5;
+
+}
+
+#intern .lesson-learned ol li{
+	font-size: 1.5em;
+	line-height: 2.5em
+}
+
 #projects{
 	margin-top: 2em;
 	background: #242324;
 	color: #fff;
-	padding: 2em 0;
+	padding-top: 2em;
 }
 
 #projects h2{
@@ -178,13 +256,16 @@ h1{
 }
 
 #projects li{
-	margin-bottom: 1em;
+	border: #fff .1em solid;
+	/*margin-bottom: 1em;*/
 	background: #242324;
 	color: #fff;
-	padding: 0 1em;
+	padding: .5em 1em;
+	margin: .5em 1em;
 }
 
 #projects p{
+
 	line-height: 2em;
 }
 
@@ -199,6 +280,7 @@ h1{
 	/*transition-delay: .1;*/
 	padding: 0.2em .2em;
 	background: #fff;
+	border-radius: 2em;
 
 }
 #projects .btn:hover{
@@ -218,6 +300,7 @@ h1{
 }
 
 #projects img{
+	border-radius: 3em;
 	margin: 2em 0;
 	display: block;
 	width: 100%;
@@ -227,7 +310,6 @@ h1{
 }
 
 #footer{
-	margin-top: 2em;
 	background: black;
 	color: #fff;
 	padding: 2em 0;
