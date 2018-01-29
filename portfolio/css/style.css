@@ -125,12 +125,6 @@ h1{
 }
 
 
-
-#edu .tech-logo{
-	display: inline-block;
-	margin: 2em .1;
-}
-
 #edu p{
 	line-height: 2em;
 	margin: 1em 0;
@@ -141,21 +135,28 @@ h1{
 	color: #333;
 	padding: .2em .2em;
 	border-radius: 1em;
-	margin: .1em;
+	margin: 1em;
 }
 
-#edu img{
+#edu .edu-pics img{
 	border-radius: 1em;
 	/*background-blend-mode: soft-light;*/
 	filter: brightness(130%) contrast(110%) saturate(120%);
 }
 
+#edu .tech-logo{
+	display: block;
+	margin: 0 1em;
+	border: #fff .2em solid;
+	padding: .2em;
+}
 
-.user-story, 
+
+/*.user-story, 
 .lesson-learned{
 	border: .05em #fff solid;
 	margin: .5em;
-}
+}*/
 
 
 
@@ -169,7 +170,9 @@ h1{
 #edu ol{
 	list-style: decimal;
 	list-style-position: inside;
-	font-family: "Cutive Mono"
+	font-family: "Cutive Mono";
+	border: .05em #fff solid;
+	margin: .5em;
 }
 
 .user-story ol li{
@@ -212,16 +215,18 @@ h1{
 	font-family: "Poiret One"
 }
 
-#intern .user-story, 
+/*#intern .user-story, 
 #intern .lesson-learned{
 	border: .1em #141414 solid;
 	margin: .5em;
-}
+}*/
 
 #intern ol{
 	list-style: decimal;
 	list-style-position: inside;
-	font-family: "Cutive Mono"
+	font-family: "Cutive Mono";
+	border: .1em #141414 solid;
+	margin: .5em;
 }
 
 #intern .user-story ol li{
@@ -261,7 +266,8 @@ h1{
 	background: #242324;
 	color: #fff;
 	padding: .5em 1em;
-	margin: .5em 1em;
+	margin: 0 1em;
+	margin-top: .5em;
 }
 
 #projects p{
@@ -401,7 +407,7 @@ h1{
 	#about{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-auto-rows: (auto, 2);
+		/*grid-auto-rows: (auto, 1fr);*/
 	}
 
 	#about h2{
@@ -412,14 +418,138 @@ h1{
 
 	#about p{
 		grid-column: 1;
-		grid-row: 2;
+		padding: 1em;
+		/*grid-row: 2;*/
 	}
 
 	#about ul{
 		grid-column: 2;
-		grid-row: 2;
-		margin: 30% 5%;
+		margin: auto 0;
+		/*grid-row: 2;*/
 	}
+
+	#edu{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#edu h2{
+		grid-column: span 2;
+	}
+
+	#edu .tech-logo{
+		grid-column: span 2;
+		margin: 0 10em;
+		margin-bottom: 2em;
+	}
+
+	#edu p{
+		grid-column: span 2;
+		margin:0 1em;
+	}
+	
+	#edu .edu-pics {
+		grid-column: span 2;
+		/*display: grid;
+		grid-template-columns: 1fr 1fr;*/
+	}
+	
+	#edu .edu-pics ul{
+		display: flex;
+	}
+
+	#edu .user-story,
+	#edu .lesson-learned{
+		grid-column: span 2;
+	}
+
+	#intern{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+	#intern h2{
+		grid-column: span 2;
+	}
+
+	#intern p{
+		grid-column: span 2;
+	}
+	
+
+	
+	#intern ul{
+		grid-column: span 2;
+		display: flex;
+		margin: 2em .5em;
+	}
+
+	#intern ul li{
+		border: #333 .2em solid;
+		width: 50%;
+		height: auto;
+		margin: auto .5em;
+	}
+
+	#jackson{
+		margin-bottom: 3em;
+	}
+	#intern ul li:nth-child(2){
+		padding: 5.89% 0;
+	}
+
+	/*#intern .table{
+		display: 
+	}*/
+
+	#intern .user-story,
+	#intern .lesson-learned{
+		grid-column: span 2;
+	}
+
+	#projects{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+	#projects h2{
+		grid-column: span 2;
+	}
+
+	#projects p{
+		grid-column: span 2;
+	}
+	
+	#projects img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	#projects ul{
+		grid-column: span 2;
+		display: flex;
+		margin: 2em 0;
+	}
+
+	#projects ul li{
+		border: #333 .2em solid;
+		width: 50%;
+		height:
+		margin: auto .2em;
+	}
+
+	/*#intern .table{
+		display: 
+	}*/
+
+	#intern .user-story,
+	#intern .lesson-learned{
+		grid-column: span 2;
+	}
+
+
  }
 
 
